@@ -8,7 +8,7 @@ package CreationalPatterns.Factory;
  *
  */
 
-public class CppDeveloper implements Developer{
+public class CppDeveloper implements IDeveloper{
 
 	@Override
 	public void writeCode() {

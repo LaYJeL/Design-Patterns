@@ -10,7 +10,7 @@ package CreationalPatterns.Factory;
 
 public class DeveloperFactory {
 
-	public Developer createDeveloperFactoryBySpeciality(String developer) {
+	public IDeveloper createDeveloperFactoryBySpeciality(String developer) {
 
 		if (developer.equalsIgnoreCase("java")) {
 			return new JavaDeveloper();

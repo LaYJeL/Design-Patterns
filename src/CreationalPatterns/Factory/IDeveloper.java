@@ -8,7 +8,7 @@ package CreationalPatterns.Factory;
  *
  */
 
-public interface Developer {
+public interface IDeveloper {
 	
 	public void writeCode();
 

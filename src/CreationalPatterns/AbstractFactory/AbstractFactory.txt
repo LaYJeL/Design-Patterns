@@ -1,0 +1,20 @@
+Template: Abstract Factory
+================================================== ================================================== ===
+Goal:
+
+Creating an interface, to create a set of interrelated or interdependent objects, without rigid
+binding to specific classes.
+=======================================================================================================
+
+What is used for:
+
+To create sets of interrelated objects.
+
+================================================== ================================================== ===
+Example of use:
+
+- The system should not depend on the method of creating, arranging and presenting the objects included in it;
+- incoming interconnected objects should be used together;
+- the system must be configured with one of the sets of objects from which it consists;
+- we need to provide many objects, revealing only their interfaces but not implementation.
+=======================================================================================================

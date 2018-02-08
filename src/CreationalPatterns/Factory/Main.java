@@ -13,7 +13,7 @@ public class Main {
 		
 		DeveloperFactory developerFactory = new DeveloperFactory();
 		
-		Developer developer = developerFactory.createDeveloperFactoryBySpeciality("java");
+		IDeveloper developer = developerFactory.createDeveloperFactoryBySpeciality("java");
 		
 		developer.writeCode();
 		

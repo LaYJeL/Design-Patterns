@@ -8,7 +8,7 @@ package CreationalPatterns.Factory;
  *
  */
 
-public class JavaDeveloper implements Developer{
+public class JavaDeveloper implements IDeveloper{
 
 	@Override
 	public void writeCode() {
