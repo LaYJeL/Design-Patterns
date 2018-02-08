@@ -1,0 +1,18 @@
+Template: Singleton
+=======================================================================================================
+Goal:
+
+Ensure that the class has only one single instance and will be provided with it
+global access point.
+=======================================================================================================
+What is used for:
+
+To create a single instance of a particular class.
+
+=======================================================================================================
+Example of use:
+
+- only one instance of a particular class is required, which is accessible to all customers;
+- a single instance must be inherited by generating subclasses, while clients
+  They can work with the non-heir class without modifying their code.
+=======================================================================================================
