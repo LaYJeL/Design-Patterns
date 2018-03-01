@@ -1,0 +1,16 @@
+Template: Factory Method
+=======================================================================================================
+Goal:
+
+Create the interface that creates the object. In this case, the choice of which instance of which class to create
+remains for the classes that implement this interface.
+=======================================================================================================
+What is used for:
+
+For delving creation of instances, to another class.
+
+=======================================================================================================
+Example of use:
+
+- in advance it is not known which instances of which class will need to be created;
+- The class is designed in such a way that the objects it creates have properties of a certain class.

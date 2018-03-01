@@ -1,0 +1,21 @@
+Template: Builder (builder)
+=======================================================================================================
+Purpose:
+
+Separate the construction of a complex object from its presentation in such a way as to result
+One and the same design we could get different views.
+=======================================================================================================
+
+What is used for:
+
+To create different objects from a single dataset.
+
+=======================================================================================================
+Example of use:
+
+- The order of creation of a complex object should not depend on which parts the object and
+  how these objects are interconnected;
+- the process of constructing an object should provide different representations of the object that we are
+  we design
+=======================================================================================================
+  
