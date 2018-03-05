@@ -1,0 +1,15 @@
+Template: Facade
+=======================================================================================================
+Goal:
+
+Provide a unified interface instead of several subsystem interfaces.
+=======================================================================================================
+What is used for:
+
+Used to define a high-level interface that simplifies the use of the subsystem.
+=======================================================================================================
+Example of use:
+
+- isolating clients from the components of the subsystem, simplifying the work with it;
+- the need to weaken the connectivity of the subsystem with customers;
+=======================================================================================================
