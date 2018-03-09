@@ -1,0 +1,17 @@
+Template: Composite
+=======================================================================================================
+Goal:
+
+Compile objects into structures like "tree", allowing clients to interpret
+separate and composite objects.
+=======================================================================================================
+What is used for:
+
+For grouping small components into larger ones, which, in turn, can become the basis for
+even larger structures.
+=======================================================================================================
+Example of use:
+
+- for representation of the hierarchy "part-whole";
+- we want customers to treat both individual and composite objects in one way.
+=======================================================================================================
