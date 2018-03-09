@@ -1,0 +1,23 @@
+Template: Proxy
+=======================================================================================================
+Goal:
+	
+To replace another object and control access to it.
+=======================================================================================================
+What is used for:
+
+To provide control access to a specific object.
+=======================================================================================================
+Example of use:
+
+- when there is a need to refer to an object in a manner different from the usual pointer;
+    * remote replacement - local representative instead of the object in another
+                                address space.
+
+    * virtual substitution - the creation of "heavy objects" if necessary.
+
+    * protected substitution - control access to the specified object
+
+    * "smart" link - replacement of the usual pointer
+                                (counting the number of links, setting the lock, etc.)
+=======================================================================================================
