@@ -1,0 +1,16 @@
+Template: Decorator
+=======================================================================================================
+Goal:
+
+Dynamic addition of new duties to the object.
+=======================================================================================================
+What is used for:
+
+Used as an alternative to generating subclasses to extend functionality.
+=======================================================================================================
+Example of use:
+
+- dynamic and understandable to customers adding responsibilities to objects;
+- the implementation of duties that can be removed from the facility;
+- an extension of the class by generating subclasses is impossible for some reason.
+=======================================================================================================
