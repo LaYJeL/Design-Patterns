@@ -1,0 +1,18 @@
+Template: Adapter
+=======================================================================================================
+Goal:
+
+Converting an interface of one class to the interface of the class that the client needs.
+=======================================================================================================
+What is used for:
+
+To ensure the collaboration of classes whose interfaces are not compatible.
+=======================================================================================================
+Example of use:
+
+- The interface of the class that we want to use does not match our needs;
+- A class is required that must interact with classes that are unknown to it
+  or are not associated with it;
+- it is necessary to use several existing subclasses, but it is inappropriate to use
+  The methods of these classes are creating their new subclasses.
+=======================================================================================================
