@@ -1,0 +1,19 @@
+Template: Bridge
+=======================================================================================================
+Goal:
+
+Separate the abstraction from its realization in such a way that we can change independently of each other
+both.
+=======================================================================================================
+What is used for:
+
+To obtain the benefits of inheritance without losing flexibility.
+=======================================================================================================
+Example of use:
+
+- preventing rigid binding of abstraction to implementation (for example, the implementation must be selected
+  during the execution of the program);
+- in the future we want to expand with the help of subclasses and implementation and abstraction;
+- if changes in the implementation should not be reflected on the abstraction clients;
+- to separate one implementation between several objects and not show it to the client.
+=======================================================================================================
